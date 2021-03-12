@@ -16,7 +16,8 @@ python -m mesh_client.mock_server
 In another terminal:
 
 ```
-cd mesh-client/example
+cd mesh-client
+source ./env/bin/activate
+cd example
 python test_connect.py
-
 ```
